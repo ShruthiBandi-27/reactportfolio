@@ -45,10 +45,10 @@ const Navbar = () => {
           {" "}
           <Link to="/about">About</Link>
         </li>
-        <li>
+        {/* <li>
           {" "}
           <Link to="/contact">Contact</Link>
-        </li>
+        </li> */}
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? <FaTimes size={20} style={{color:"#fff"}} /> : <FaBars size={20} style={{color:"#fff"}}/> }

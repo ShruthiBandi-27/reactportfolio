@@ -12,7 +12,8 @@ const MainImg = () => {
   const handleDownloadResume = () => {
     const fileName = "shruthiB_resume.pdf";
     const aTag = document.createElement("a");
-    aTag.href = "http://localhost:3000/shruthiResume.pdf"
+    // aTag.href = "http://localhost:3000/shruthiResume.pdf"
+    aTag.href = "/shruthiResume.pdf"
     aTag.setAttribute("download", fileName);
     document.body.appendChild(aTag);
     aTag.click();

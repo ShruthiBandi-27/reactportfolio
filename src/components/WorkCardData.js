@@ -32,7 +32,7 @@ const ProjectCardData = [
         <br />
       </>
     ),
-    view: "https://poetic-frangipane-8e2714.netlify.app/",
+    view: "https://calm-mooncake-1734a0.netlify.app/",
     fsource:
       "https://github.com/ShruthiBandi-27/stackoverflow_clone_frontend.git",
     bsource:

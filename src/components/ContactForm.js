@@ -3,6 +3,7 @@ import axios from "axios";
 import React, { useState } from 'react'
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import {API} from '../global.js'
 
 export const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -34,7 +35,7 @@ export const ContactForm = () => {
     }
 
     try {
-      await axios.post('http://localhost:9000/send-email', formData)
+      await axios.post(`${API}/send-email`, formData)
             .then(res => {
               console.log(`${res.data.message}`)
               toast.success(res.data.message)

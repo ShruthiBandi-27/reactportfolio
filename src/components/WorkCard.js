@@ -10,9 +10,9 @@ const WorkCard = (props) => {
                 <div className="pro-details" >
                     <p style={{textAlign: 'justify', fontSize: '20px'}}>{props.text}</p><br></br>
                     <div className="pro-btns">
-                        <NavLink to={props.view} className="btn" target="_blank" rel="noopener noreferrer">View</NavLink>
-                        <NavLink to={props.fsource} className="btn" target="_blank" rel="noopener noreferrer">frontend source</NavLink>
-                        <NavLink to={props.bsource} className="btn" target="_blank" rel="noopener noreferrer">backend source</NavLink>
+                        <NavLink to={props.view} className="btn" target="_blank">View</NavLink>
+                        <NavLink to={props.fsource} className="btn" target="_blank">frontend source</NavLink>
+                        <NavLink to={props.bsource} className="btn" target="_blank">backend source</NavLink>
                     </div>
                 </div>
             </div>

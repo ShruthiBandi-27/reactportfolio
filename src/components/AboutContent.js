@@ -23,9 +23,9 @@ export const AboutContent = () => {
             I am actively seeking new opportunities as a full stack developer(MERN stack) to further enhance my skills and 
             contribute to innovative projects.
             </p><br></br>
-            <Link to="/contact">
+            {/* <Link to="/contact">
                 <button className="btn">Contact</button>
-            </Link>
+            </Link> */}
         </div>
         {/* <div className="right">
             <div className="img-container">
